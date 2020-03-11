@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fly.eshop.auth.dao.AuthRoleDao">
+
+    <resultMap type="com.fly.eshop.auth.entity.AuthRole" id="AuthRoleMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="code" column="code" jdbcType="VARCHAR"/>
+        <result property="roleName" column="role_name" jdbcType="VARCHAR"/>
+        <result property="roleComment" column="role_comment" jdbcType="VARCHAR"/>
+        <result property="isEnabled" column="is_enabled" jdbcType="INTEGER"/>
+        <result property="gmtCreate" column="gmt_create" jdbcType="TIMESTAMP"/>
+        <result property="gmtModified" column="gmt_modified" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="AuthRoleMap">
+        select
+          id, code, role_name, role_comment, is_enabled, gmt_create, gmt_modified
+        from eshop.auth_role
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="AuthRoleMap">
+        select
+          id, code, role_name, role_comment, is_enabled, gmt_create, gmt_modified
+        from eshop.auth_role
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="AuthRoleMap">
+        select
+          id, code, role_name, role_comment, is_enabled, gmt_create, gmt_modified
+        from eshop.auth_role
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="code != null and code != ''">
+                and code = #{code}
+            </if>
+            <if test="roleName != null and roleName != ''">
+                and role_name = #{roleName}
+            </if>
+            <if test="roleComment != null and roleComment != ''">
+                and role_comment = #{roleComment}
+            </if>
+            <if test="isEnabled != null">
+                and is_enabled = #{isEnabled}
+            </if>
+            <if test="gmtCreate != null">
+                and gmt_create = #{gmtCreate}
+            </if>
+            <if test="gmtModified != null">
+                and gmt_modified = #{gmtModified}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into eshop.auth_role(code, role_name, role_comment, is_enabled, gmt_create, gmt_modified)
+        values (#{code}, #{roleName}, #{roleComment}, #{isEnabled}, #{gmtCreate}, #{gmtModified})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update eshop.auth_role
+        <set>
+            <if test="code != null and code != ''">
+                code = #{code},
+            </if>
+            <if test="roleName != null and roleName != ''">
+                role_name = #{roleName},
+            </if>
+            <if test="roleComment != null and roleComment != ''">
+                role_comment = #{roleComment},
+            </if>
+            <if test="isEnabled != null">
+                is_enabled = #{isEnabled},
+            </if>
+            <if test="gmtCreate != null">
+                gmt_create = #{gmtCreate},
+            </if>
+            <if test="gmtModified != null">
+                gmt_modified = #{gmtModified},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from eshop.auth_role where id = #{id}
+    </delete>
+
+</mapper>

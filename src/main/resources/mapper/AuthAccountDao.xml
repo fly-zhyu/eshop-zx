@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fly.eshop.auth.dao.AuthAccountDao">
+
+    <resultMap type="com.fly.eshop.auth.entity.AuthAccount" id="AuthAccountMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="username" column="username" jdbcType="VARCHAR"/>
+        <result property="password" column="password" jdbcType="INTEGER"/>
+        <result property="employeName" column="employe_name" jdbcType="VARCHAR"/>
+        <result property="accountComment" column="account_comment" jdbcType="VARCHAR"/>
+        <result property="isEnabled" column="is_enabled" jdbcType="INTEGER"/>
+        <result property="gmtCreate" column="gmt_create" jdbcType="TIMESTAMP"/>
+        <result property="gmtModified" column="gmt_modified" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="AuthAccountMap">
+        select
+          id, username, password, employe_name, account_comment, is_enabled, gmt_create, gmt_modified
+        from eshop.auth_account
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="AuthAccountMap">
+        select
+          id, username, password, employe_name, account_comment, is_enabled, gmt_create, gmt_modified
+        from eshop.auth_account
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="AuthAccountMap">
+        select
+          id, username, password, employe_name, account_comment, is_enabled, gmt_create, gmt_modified
+        from eshop.auth_account
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="username != null and username != ''">
+                and username = #{username}
+            </if>
+            <if test="password != null">
+                and password = #{password}
+            </if>
+            <if test="employeName != null and employeName != ''">
+                and employe_name = #{employeName}
+            </if>
+            <if test="accountComment != null and accountComment != ''">
+                and account_comment = #{accountComment}
+            </if>
+            <if test="isEnabled != null">
+                and is_enabled = #{isEnabled}
+            </if>
+            <if test="gmtCreate != null">
+                and gmt_create = #{gmtCreate}
+            </if>
+            <if test="gmtModified != null">
+                and gmt_modified = #{gmtModified}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into eshop.auth_account(username, password, employe_name, account_comment, is_enabled, gmt_create, gmt_modified)
+        values (#{username}, #{password}, #{employeName}, #{accountComment}, #{isEnabled}, #{gmtCreate}, #{gmtModified})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update eshop.auth_account
+        <set>
+            <if test="username != null and username != ''">
+                username = #{username},
+            </if>
+            <if test="password != null">
+                password = #{password},
+            </if>
+            <if test="employeName != null and employeName != ''">
+                employe_name = #{employeName},
+            </if>
+            <if test="accountComment != null and accountComment != ''">
+                account_comment = #{accountComment},
+            </if>
+            <if test="isEnabled != null">
+                is_enabled = #{isEnabled},
+            </if>
+            <if test="gmtCreate != null">
+                gmt_create = #{gmtCreate},
+            </if>
+            <if test="gmtModified != null">
+                gmt_modified = #{gmtModified},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from eshop.auth_account where id = #{id}
+    </delete>
+
+</mapper>

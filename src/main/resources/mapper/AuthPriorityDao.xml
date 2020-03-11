@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fly.eshop.auth.dao.AuthPriorityDao">
+
+    <resultMap type="com.fly.eshop.auth.entity.AuthPriority" id="AuthPriorityMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="code" column="code" jdbcType="VARCHAR"/>
+        <result property="url" column="url" jdbcType="VARCHAR"/>
+        <result property="priorityComment" column="priority_comment" jdbcType="VARCHAR"/>
+        <result property="priorityType" column="priority_type" jdbcType="INTEGER"/>
+        <result property="parentId" column="parent_id" jdbcType="INTEGER"/>
+        <result property="gmtCreate" column="gmt_create" jdbcType="TIMESTAMP"/>
+        <result property="gmtModified" column="gmt_modified" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="AuthPriorityMap">
+        select
+          id, code, url, priority_comment, priority_type, parent_id, gmt_create, gmt_modified
+        from eshop.auth_priority
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="AuthPriorityMap">
+        select
+          id, code, url, priority_comment, priority_type, parent_id, gmt_create, gmt_modified
+        from eshop.auth_priority
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="AuthPriorityMap">
+        select
+          id, code, url, priority_comment, priority_type, parent_id, gmt_create, gmt_modified
+        from eshop.auth_priority
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="code != null and code != ''">
+                and code = #{code}
+            </if>
+            <if test="url != null and url != ''">
+                and url = #{url}
+            </if>
+            <if test="priorityComment != null and priorityComment != ''">
+                and priority_comment = #{priorityComment}
+            </if>
+            <if test="priorityType != null">
+                and priority_type = #{priorityType}
+            </if>
+            <if test="parentId != null">
+                and parent_id = #{parentId}
+            </if>
+            <if test="gmtCreate != null">
+                and gmt_create = #{gmtCreate}
+            </if>
+            <if test="gmtModified != null">
+                and gmt_modified = #{gmtModified}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into eshop.auth_priority(code, url, priority_comment, priority_type, parent_id, gmt_create, gmt_modified)
+        values (#{code}, #{url}, #{priorityComment}, #{priorityType}, #{parentId}, #{gmtCreate}, #{gmtModified})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update eshop.auth_priority
+        <set>
+            <if test="code != null and code != ''">
+                code = #{code},
+            </if>
+            <if test="url != null and url != ''">
+                url = #{url},
+            </if>
+            <if test="priorityComment != null and priorityComment != ''">
+                priority_comment = #{priorityComment},
+            </if>
+            <if test="priorityType != null">
+                priority_type = #{priorityType},
+            </if>
+            <if test="parentId != null">
+                parent_id = #{parentId},
+            </if>
+            <if test="gmtCreate != null">
+                gmt_create = #{gmtCreate},
+            </if>
+            <if test="gmtModified != null">
+                gmt_modified = #{gmtModified},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from eshop.auth_priority where id = #{id}
+    </delete>
+
+</mapper>
