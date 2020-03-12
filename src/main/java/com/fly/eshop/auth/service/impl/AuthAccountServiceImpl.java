@@ -3,6 +3,9 @@ package com.fly.eshop.auth.service.impl;
 import com.fly.eshop.auth.dao.AuthAccountDao;
 import com.fly.eshop.auth.entity.AuthAccount;
 import com.fly.eshop.auth.service.AuthAccountService;
+import com.fly.eshop.demo.dao.DemoDao;
+import com.fly.eshop.demo.entity.Demo;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -18,6 +21,7 @@ import java.util.List;
 public class AuthAccountServiceImpl implements AuthAccountService {
     @Resource
     private AuthAccountDao authAccountDao;
+
 
     /**
      * 通过ID查询单条数据
@@ -76,4 +80,5 @@ public class AuthAccountServiceImpl implements AuthAccountService {
     public boolean deleteById(Long id) {
         return this.authAccountDao.deleteById(id) > 0;
     }
+
 }

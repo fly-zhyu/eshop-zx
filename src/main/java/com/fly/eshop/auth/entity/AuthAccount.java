@@ -109,4 +109,17 @@ public class AuthAccount implements Serializable {
         this.gmtModified = gmtModified;
     }
 
+    @Override
+    public String toString() {
+        return "AuthAccount{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", password=" + password +
+                ", employeName='" + employeName + '\'' +
+                ", accountComment='" + accountComment + '\'' +
+                ", isEnabled=" + isEnabled +
+                ", gmtCreate=" + gmtCreate +
+                ", gmtModified=" + gmtModified +
+                '}';
+    }
 }
