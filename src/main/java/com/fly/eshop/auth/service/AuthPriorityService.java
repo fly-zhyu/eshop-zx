@@ -1,5 +1,6 @@
 package com.fly.eshop.auth.service;
 
+import com.fly.eshop.auth.dto.AuthPriorityDTO;
 import com.fly.eshop.auth.entity.AuthPriority;
 import java.util.List;
 
@@ -52,4 +53,20 @@ public interface AuthPriorityService {
      */
     boolean deleteById(Long id);
 
+    /**
+     * 查询根权限
+     *
+     * @return
+     */
+    List<AuthPriorityDTO> listRootPriorities();
+
+    /**
+     * 根据父权限id查询子权限
+     *
+     * @param parentId
+     * @return
+     */
+    List<AuthPriorityDTO> listChildPriorities(Long parentId);
+
+    Boolean savePriority(AuthPriorityDTO authPriorityDTO);
 }

@@ -102,4 +102,18 @@
         delete from eshop.auth_priority where id = #{id}
     </delete>
 
+    <select id="listRootPriorities" resultMap="AuthPriorityMap">
+         select
+          id, code, url, priority_comment, priority_type, parent_id, gmt_create, gmt_modified
+        from eshop.auth_priority
+        where parent_id is null
+    </select>
+
+    <select id="listChildPriorities" resultMap="AuthPriorityMap">
+         select
+          id, code, url, priority_comment, priority_type, parent_id, gmt_create, gmt_modified
+        from eshop.auth_priority
+        where parent_id = #{parentId}
+    </select>
+
 </mapper>

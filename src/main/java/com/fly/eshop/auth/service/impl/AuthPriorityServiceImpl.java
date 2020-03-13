@@ -1,12 +1,18 @@
 package com.fly.eshop.auth.service.impl;
 
 import com.fly.eshop.auth.dao.AuthPriorityDao;
+import com.fly.eshop.auth.dto.AuthPriorityDTO;
 import com.fly.eshop.auth.entity.AuthPriority;
 import com.fly.eshop.auth.service.AuthPriorityService;
+import com.fly.eshop.common.util.BeanConvertUtil;
+import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
+import org.springframework.util.CollectionUtils;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * 权限表，每个权限代表了系统中的一个菜单、按钮、URL请求(AuthPriority)表服务实现类
@@ -34,7 +40,7 @@ public class AuthPriorityServiceImpl implements AuthPriorityService {
      * 查询多条数据
      *
      * @param offset 查询起始位置
-     * @param limit 查询条数
+     * @param limit  查询条数
      * @return 对象列表
      */
     @Override
@@ -76,4 +82,29 @@ public class AuthPriorityServiceImpl implements AuthPriorityService {
     public boolean deleteById(Long id) {
         return this.authPriorityDao.deleteById(id) > 0;
     }
+
+    @Override
+    public List<AuthPriorityDTO> listRootPriorities() {
+        List<AuthPriority> authPriorityList = this.authPriorityDao.listRootPriorities();
+        return BeanConvertUtil.convertListToOtherList(authPriorityList, AuthPriorityDTO.class);
+    }
+
+    @Override
+    public List<AuthPriorityDTO> listChildPriorities(Long parentId) {
+        List<AuthPriority> authPriorityList = this.authPriorityDao.listChildPriorities(parentId);
+        return BeanConvertUtil.convertListToOtherList(authPriorityList, AuthPriorityDTO.class);
+    }
+
+    @Override
+    public Boolean savePriority(AuthPriorityDTO authPriorityDTO) {
+        AuthPriority authPriority = BeanConvertUtil.convertBeanToOtherBean(authPriorityDTO, AuthPriority.class);
+        AuthPriority insert = this.insert(authPriority);
+        if(insert != null){
+            return true;
+        }
+        return false;
+    }
+
+    //==============================private================================
+
 }

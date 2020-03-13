@@ -64,4 +64,13 @@ public interface AuthPriorityDao {
      */
     int deleteById(Long id);
 
+    List<AuthPriority> listRootPriorities();
+
+    /**
+     * 根据父权限查询子权限
+     *
+     * @param parentId
+     * @return
+     */
+    List<AuthPriority> listChildPriorities(Long parentId);
 }

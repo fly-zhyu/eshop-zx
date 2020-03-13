@@ -1,3 +1,5 @@
+server:
+  port: 7777
 spring:
   profiles:
     active: dev
@@ -45,5 +47,4 @@ mybatis:
 
 logging:
   config: classpath:logback-spring.xml
-server:
-  port: 7777
+
