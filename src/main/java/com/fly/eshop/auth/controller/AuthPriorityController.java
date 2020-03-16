@@ -4,7 +4,10 @@ import com.fly.eshop.auth.dto.AuthPriorityDTO;
 import com.fly.eshop.auth.entity.AuthPriority;
 import com.fly.eshop.auth.service.AuthPriorityService;
 import com.fly.eshop.auth.vo.AuthPriorityVO;
+import com.fly.eshop.common.constant.BaseRuntimeException;
+import com.fly.eshop.common.constant.ShopResultEnum;
 import com.fly.eshop.common.util.BeanConvertUtil;
+import com.fly.eshop.common.vo.ResultVO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
@@ -36,13 +39,8 @@ public class AuthPriorityController {
      */
     @GetMapping("/root")
     public List<AuthPriorityVO> listRootPriorities() {
-        try {
-            List<AuthPriorityDTO> priorityDTOList = priorityService.listRootPriorities();
-            return BeanConvertUtil.convertListToOtherList(priorityDTOList, AuthPriorityVO.class);
-        } catch (Exception e) {
-            log.error("error", e);
-        }
-        return new ArrayList<>();
+        List<AuthPriorityDTO> priorityDTOList = priorityService.listRootPriorities();
+        return BeanConvertUtil.convertListToOtherList(priorityDTOList, AuthPriorityVO.class);
     }
 
     /**
@@ -53,13 +51,8 @@ public class AuthPriorityController {
      */
     @GetMapping("/child/{parentId}")
     public List<AuthPriorityVO> listChildPriorities(@PathVariable("parentId") Long parentId) {
-        try {
-            List<AuthPriorityDTO> priorityDTOList = priorityService.listChildPriorities(parentId);
-            return BeanConvertUtil.convertListToOtherList(priorityDTOList, AuthPriorityVO.class);
-        } catch (Exception e) {
-            log.error("error", e);
-        }
-        return new ArrayList<>();
+        List<AuthPriorityDTO> priorityDTOList = priorityService.listChildPriorities(parentId);
+        return BeanConvertUtil.convertListToOtherList(priorityDTOList, AuthPriorityVO.class);
     }
 
     /**
@@ -69,44 +62,28 @@ public class AuthPriorityController {
      * @return
      */
     @GetMapping("/{id}")
-    public AuthPriorityVO getPriorityById(@PathVariable("id")Long id){
-        try {
-            AuthPriority authPriority = priorityService.queryById(id);
-            return BeanConvertUtil.convertBeanToOtherBean(authPriority, AuthPriorityVO.class);
-        } catch (Exception e) {
-            log.error("error", e);
-        }
-        return new AuthPriorityVO();
+    public ResultVO<AuthPriorityVO> getPriorityById(@PathVariable("id")Long id){
+        AuthPriority authPriority = priorityService.queryById(id);
+        return new ResultVO<AuthPriorityVO>().success(BeanConvertUtil.convertBeanToOtherBean(authPriority, AuthPriorityVO.class));
     }
 
     @PostMapping
-    public Boolean savePriority(@RequestBody AuthPriorityVO priorityVO){
-        try{
-            AuthPriorityDTO authPriorityDTO = BeanConvertUtil.convertBeanToOtherBean(priorityVO, AuthPriorityDTO.class);
-            priorityService.savePriority(authPriorityDTO);
-        }catch (Exception e){
-            log.error("error", e);
-            return false;
-        }
-        return true;
+    public ResultVO<Boolean> savePriority(@RequestBody AuthPriorityVO priorityVO){
+        AuthPriorityDTO authPriorityDTO = BeanConvertUtil.convertBeanToOtherBean(priorityVO, AuthPriorityDTO.class);
+        return new ResultVO<Boolean>().success(priorityService.savePriority(authPriorityDTO));
     }
 
     @PutMapping("/{id}")
-    public Boolean updatePriority(@PathVariable("id")Long id, @RequestBody AuthPriorityVO priorityVO){
-        try{
-            AuthPriority authPriority = BeanConvertUtil.convertBeanToOtherBean(priorityVO, AuthPriority.class);
-            authPriority.setId(id);
-            priorityService.update(authPriority);
-        }catch (Exception e){
-            log.error("error", e);
-            return false;
-        }
-        return true;
+    public ResultVO<Boolean> updatePriority(@PathVariable("id")Long id, @RequestBody AuthPriorityVO priorityVO){
+        AuthPriority authPriority = BeanConvertUtil.convertBeanToOtherBean(priorityVO, AuthPriority.class);
+        authPriority.setId(id);
+        priorityService.update(authPriority);
+        return new ResultVO<Boolean>().success(true);
     }
 
     @DeleteMapping("/{id}")
-    public Boolean removePriortiy(@PathVariable("id")Long id){
-        return true;
+    public ResultVO<Boolean> removePriortiy(@PathVariable("id")Long id){
+        return new ResultVO<Boolean>().success(true);
     }
 
 }

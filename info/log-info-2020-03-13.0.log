@@ -1,0 +1,537 @@
+2020-03-13 11:13:43.171 [main] INFO  com.fly.eshop.AuthTest - Starting AuthTest on pc-hz20125218 with PID 13012 (started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 11:13:43.176 [main] INFO  com.fly.eshop.AuthTest - The following profiles are active: dev
+2020-03-13 11:13:46.834 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 11:13:47.859 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 11:13:48.015 [main] INFO  com.fly.eshop.AuthTest - Started AuthTest in 5.761 seconds (JVM running for 7.626)
+2020-03-13 11:13:48.463 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 11:13:48.466 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-03-13 11:14:19.860 [main] INFO  com.fly.eshop.AuthTest - Starting AuthTest on pc-hz20125218 with PID 19332 (started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 11:14:19.861 [main] INFO  com.fly.eshop.AuthTest - The following profiles are active: dev
+2020-03-13 11:14:23.261 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 11:14:24.186 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 11:14:24.294 [main] INFO  com.fly.eshop.AuthTest - Started AuthTest in 5.178 seconds (JVM running for 7.056)
+2020-03-13 11:14:25.712 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-13 11:14:27.524 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 11:14:27.527 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-03-13 11:14:27.535 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-13 11:15:13.639 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 9692 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 11:15:13.640 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 11:15:13.694 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 11:15:13.694 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 11:15:15.300 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 11:15:15.310 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 11:15:15.311 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 11:15:15.311 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 11:15:15.478 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 11:15:15.478 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1784 ms
+2020-03-13 11:15:16.475 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 11:15:17.031 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-13 11:15:17.045 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 11:15:17.106 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2020-03-13 11:15:17.179 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2020-03-13 11:15:17.184 [restartedMain] INFO  com.fly.eshop.EshopApplication - Started EshopApplication in 4.299 seconds (JVM running for 5.628)
+2020-03-13 11:15:17.374 [RMI TCP Connection(4)-10.12.65.109] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-13 11:15:17.375 [RMI TCP Connection(4)-10.12.65.109] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-13 11:15:17.416 [RMI TCP Connection(4)-10.12.65.109] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 41 ms
+2020-03-13 11:15:18.197 [RMI TCP Connection(3)-10.12.65.109] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-13 11:24:05.065 [Thread-14] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 11:24:05.067 [Thread-14] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-03-13 11:24:05.072 [Thread-14] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-13 11:24:05.514 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 9692 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 11:24:05.514 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 11:24:06.485 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 11:24:06.486 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 11:24:06.486 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 11:24:06.486 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 11:24:06.570 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 11:24:06.570 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1052 ms
+2020-03-13 11:24:06.937 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 11:24:07.186 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-13 11:24:07.193 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 11:24:07.269 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2020-03-13 11:24:07.277 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2020-03-13 11:24:07.277 [restartedMain] INFO  com.fly.eshop.EshopApplication - Started EshopApplication in 1.857 seconds (JVM running for 535.721)
+2020-03-13 11:24:07.281 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-03-13 11:25:43.600 [Thread-25] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 11:25:43.602 [Thread-25] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-03-13 11:25:44.026 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 9692 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 11:25:44.026 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 11:25:44.769 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 11:25:44.770 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 11:25:44.770 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 11:25:44.770 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 11:25:44.842 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 11:25:44.842 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 811 ms
+2020-03-13 11:25:45.055 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 11:25:46.417 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-13 11:25:46.420 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 11:25:46.457 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2020-03-13 11:25:46.463 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2020-03-13 11:25:46.463 [restartedMain] INFO  com.fly.eshop.EshopApplication - Started EshopApplication in 2.505 seconds (JVM running for 634.907)
+2020-03-13 11:25:46.465 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-03-13 11:25:49.053 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 11:25:49.054 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-03-13 11:32:41.801 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 3572 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 11:32:41.801 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 11:32:41.841 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 11:32:41.841 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 11:32:43.869 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 11:32:43.881 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 11:32:43.882 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 11:32:43.882 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 11:32:44.104 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 11:32:44.104 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2263 ms
+2020-03-13 11:32:46.091 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 11:32:46.429 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-13 11:32:46.433 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 11:32:46.497 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2020-03-13 11:32:46.531 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2020-03-13 11:32:46.536 [restartedMain] INFO  com.fly.eshop.EshopApplication - Started EshopApplication in 5.331 seconds (JVM running for 6.53)
+2020-03-13 11:32:47.108 [RMI TCP Connection(4)-10.12.65.109] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-13 11:32:47.108 [RMI TCP Connection(4)-10.12.65.109] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-13 11:32:47.118 [RMI TCP Connection(4)-10.12.65.109] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-03-13 11:32:47.814 [RMI TCP Connection(3)-10.12.65.109] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-13 11:35:02.214 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 11:35:02.215 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-03-13 11:35:02.225 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-13 14:31:27.439 [main] INFO  com.fly.eshop.AuthTest - Starting AuthTest on pc-hz20125218 with PID 16788 (started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 14:31:27.440 [main] INFO  com.fly.eshop.AuthTest - The following profiles are active: dev
+2020-03-13 14:31:31.531 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 14:31:32.530 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 14:31:32.668 [main] INFO  com.fly.eshop.AuthTest - Started AuthTest in 6.017 seconds (JVM running for 8.271)
+2020-03-13 14:31:34.227 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-13 14:31:35.462 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 14:31:35.465 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-03-13 14:31:35.473 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-13 14:33:13.084 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 21628 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 14:33:13.086 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 14:33:13.158 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 14:33:13.158 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 14:33:14.804 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 14:33:14.813 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 14:33:14.813 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 14:33:14.814 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 14:33:14.970 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 14:33:14.970 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1812 ms
+2020-03-13 14:33:15.799 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 14:33:16.130 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-13 14:33:16.134 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 14:33:16.196 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2020-03-13 14:33:16.220 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2020-03-13 14:33:16.223 [restartedMain] INFO  com.fly.eshop.EshopApplication - Started EshopApplication in 3.929 seconds (JVM running for 5.511)
+2020-03-13 14:33:16.342 [RMI TCP Connection(3)-10.12.65.109] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-13 14:33:16.342 [RMI TCP Connection(3)-10.12.65.109] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-13 14:33:16.353 [RMI TCP Connection(3)-10.12.65.109] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2020-03-13 14:33:17.022 [RMI TCP Connection(5)-10.12.65.109] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-13 14:46:51.257 [Thread-14] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 14:46:51.258 [Thread-14] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-03-13 14:46:51.262 [Thread-14] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-13 14:46:51.580 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 21628 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 14:46:51.580 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 14:46:52.219 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 14:46:52.220 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 14:46:52.220 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 14:46:52.220 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 14:46:52.295 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 14:46:52.295 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 712 ms
+2020-03-13 14:46:52.571 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-03-13 14:46:52.573 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-13 14:47:44.654 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 21628 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 14:47:44.654 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 14:47:45.286 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 14:47:45.287 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 14:47:45.287 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 14:47:45.287 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 14:47:45.345 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 14:47:45.345 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 687 ms
+2020-03-13 14:47:45.541 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 14:47:45.657 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-13 14:47:45.659 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 14:47:45.688 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2020-03-13 14:47:45.694 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2020-03-13 14:47:45.695 [restartedMain] INFO  com.fly.eshop.EshopApplication - Started EshopApplication in 1.103 seconds (JVM running for 874.983)
+2020-03-13 14:47:45.697 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-03-13 14:55:35.999 [Thread-25] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 14:55:36.001 [Thread-25] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-03-13 14:55:36.421 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 21628 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 14:55:36.421 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 14:55:37.346 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 14:55:37.348 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 14:55:37.348 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 14:55:37.348 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 14:55:37.408 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 14:55:37.409 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 984 ms
+2020-03-13 14:55:37.882 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 14:55:38.066 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-13 14:55:38.073 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 14:55:38.125 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2020-03-13 14:55:38.132 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2020-03-13 14:55:38.133 [restartedMain] INFO  com.fly.eshop.EshopApplication - Started EshopApplication in 1.774 seconds (JVM running for 1347.421)
+2020-03-13 14:55:38.135 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-03-13 14:55:42.879 [Thread-33] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 14:55:42.880 [Thread-33] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-03-13 14:55:43.282 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 21628 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 14:55:43.282 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 14:55:43.887 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 14:55:43.888 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 14:55:43.888 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 14:55:43.888 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 14:55:43.954 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 14:55:43.955 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 670 ms
+2020-03-13 14:55:44.223 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 14:55:44.341 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-13 14:55:44.346 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 14:55:44.381 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2020-03-13 14:55:44.387 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2020-03-13 14:55:44.387 [restartedMain] INFO  com.fly.eshop.EshopApplication - Started EshopApplication in 1.146 seconds (JVM running for 1353.677)
+2020-03-13 14:55:44.389 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-03-13 14:56:06.261 [Thread-38] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 14:56:06.262 [Thread-38] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-03-13 14:56:06.530 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 21628 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 14:56:06.530 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 14:56:07.110 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 14:56:07.110 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 14:56:07.110 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 14:56:07.110 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 14:56:07.172 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 14:56:07.172 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 640 ms
+2020-03-13 14:56:07.454 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 14:56:07.619 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-13 14:56:07.625 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 14:56:07.683 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2020-03-13 14:56:07.689 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2020-03-13 14:56:07.690 [restartedMain] INFO  com.fly.eshop.EshopApplication - Started EshopApplication in 1.211 seconds (JVM running for 1376.979)
+2020-03-13 14:56:07.692 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-03-13 14:56:52.042 [Thread-43] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 14:56:52.043 [Thread-43] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-03-13 14:56:52.427 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 21628 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 14:56:52.427 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 14:56:53.100 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 14:56:53.100 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 14:56:53.101 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 14:56:53.101 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 14:56:53.169 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 14:56:53.169 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 740 ms
+2020-03-13 14:56:53.449 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 14:56:53.612 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-13 14:56:53.618 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 14:56:53.672 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2020-03-13 14:56:53.678 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2020-03-13 14:56:53.679 [restartedMain] INFO  com.fly.eshop.EshopApplication - Started EshopApplication in 1.309 seconds (JVM running for 1422.969)
+2020-03-13 14:56:53.681 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-03-13 14:56:55.047 [Thread-48] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 14:56:55.048 [Thread-48] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-03-13 14:56:55.342 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 21628 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 14:56:55.342 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 14:56:55.909 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 14:56:55.910 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 14:56:55.910 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 14:56:55.910 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 14:56:55.981 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 14:56:55.981 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 636 ms
+2020-03-13 14:56:56.322 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 14:56:56.477 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-13 14:56:56.479 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 14:56:56.525 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2020-03-13 14:56:56.533 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2020-03-13 14:56:56.534 [restartedMain] INFO  com.fly.eshop.EshopApplication - Started EshopApplication in 1.239 seconds (JVM running for 1425.823)
+2020-03-13 14:56:56.535 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-03-13 14:56:57.922 [Thread-53] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 14:56:57.923 [Thread-53] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-03-13 14:56:58.257 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 21628 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 14:56:58.258 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 14:56:58.996 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 14:56:58.997 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 14:56:58.997 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 14:56:58.997 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 14:56:59.059 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 14:56:59.060 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 800 ms
+2020-03-13 14:56:59.270 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 14:56:59.386 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-13 14:56:59.390 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 14:56:59.427 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2020-03-13 14:56:59.433 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2020-03-13 14:56:59.434 [restartedMain] INFO  com.fly.eshop.EshopApplication - Started EshopApplication in 1.23 seconds (JVM running for 1428.723)
+2020-03-13 14:56:59.436 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-03-13 14:57:10.244 [http-nio-7777-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-13 14:57:10.245 [http-nio-7777-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-13 14:57:10.248 [http-nio-7777-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-03-13 14:57:10.355 [http-nio-7777-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2020-03-13 15:02:38.250 [Thread-58] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:02:38.250 [Thread-58] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2020-03-13 15:02:38.256 [Thread-58] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2020-03-13 15:02:38.697 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 21628 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 15:02:38.697 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 15:02:39.429 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 15:02:39.430 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 15:02:39.430 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 15:02:39.430 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 15:02:39.498 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 15:02:39.498 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 798 ms
+2020-03-13 15:02:39.855 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:02:40.029 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-13 15:02:40.033 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 15:02:40.076 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2020-03-13 15:02:40.082 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2020-03-13 15:02:40.083 [restartedMain] INFO  com.fly.eshop.EshopApplication - Started EshopApplication in 1.457 seconds (JVM running for 1769.371)
+2020-03-13 15:02:40.084 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-03-13 15:02:50.674 [http-nio-7777-exec-3] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-13 15:02:50.675 [http-nio-7777-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-13 15:02:50.677 [http-nio-7777-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-03-13 15:02:50.885 [http-nio-7777-exec-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+2020-03-13 15:13:25.061 [Thread-63] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:13:25.062 [Thread-63] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closing ...
+2020-03-13 15:13:25.069 [Thread-63] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
+2020-03-13 15:13:25.483 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 21628 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 15:13:25.483 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 15:13:26.115 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 15:13:26.115 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 15:13:26.116 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 15:13:26.116 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 15:13:26.184 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 15:13:26.184 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 698 ms
+2020-03-13 15:13:26.443 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:13:26.606 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-13 15:13:26.612 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 15:13:26.656 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2020-03-13 15:13:26.664 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2020-03-13 15:13:26.665 [restartedMain] INFO  com.fly.eshop.EshopApplication - Started EshopApplication in 1.241 seconds (JVM running for 2415.954)
+2020-03-13 15:13:26.669 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-03-13 15:17:22.393 [Thread-68] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:17:22.393 [Thread-68] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-03-13 15:17:22.784 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 21628 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 15:17:22.784 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 15:17:25.322 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 21628 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 15:17:25.323 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 15:17:26.001 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 15:17:26.003 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 15:17:26.003 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 15:17:26.003 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 15:17:26.065 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 15:17:26.065 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 740 ms
+2020-03-13 15:17:26.188 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-03-13 15:17:26.188 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-13 15:23:01.810 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 21628 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 15:23:01.811 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 15:23:02.476 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 15:23:02.477 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 15:23:02.477 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 15:23:02.477 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 15:23:02.533 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 15:23:02.533 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 719 ms
+2020-03-13 15:23:02.747 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:23:02.861 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-13 15:23:02.866 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 15:23:02.909 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2020-03-13 15:23:02.916 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2020-03-13 15:23:02.916 [restartedMain] INFO  com.fly.eshop.EshopApplication - Started EshopApplication in 1.152 seconds (JVM running for 2992.206)
+2020-03-13 15:23:02.920 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-03-13 15:23:05.343 [Thread-73] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:23:05.344 [Thread-73] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-03-13 15:23:05.746 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 21628 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 15:23:05.746 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 15:23:06.360 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 15:23:06.361 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 15:23:06.361 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 15:23:06.361 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 15:23:06.418 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 15:23:06.419 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 667 ms
+2020-03-13 15:23:06.639 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:23:06.738 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-13 15:23:06.741 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 15:23:06.768 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2020-03-13 15:23:06.774 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2020-03-13 15:23:06.775 [restartedMain] INFO  com.fly.eshop.EshopApplication - Started EshopApplication in 1.099 seconds (JVM running for 2996.064)
+2020-03-13 15:23:06.777 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-03-13 15:24:08.808 [Thread-83] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:24:08.809 [Thread-83] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-03-13 15:24:09.240 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 21628 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 15:24:09.240 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 15:24:09.829 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 15:24:09.830 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 15:24:09.830 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 15:24:09.830 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 15:24:09.884 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 15:24:09.884 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 641 ms
+2020-03-13 15:24:10.151 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:24:10.283 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-13 15:24:10.285 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 15:24:10.316 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2020-03-13 15:24:10.322 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2020-03-13 15:24:10.322 [restartedMain] INFO  com.fly.eshop.EshopApplication - Started EshopApplication in 1.135 seconds (JVM running for 3059.612)
+2020-03-13 15:24:10.324 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-03-13 15:25:28.914 [http-nio-7777-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-13 15:25:28.916 [http-nio-7777-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-13 15:25:28.918 [http-nio-7777-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-03-13 15:26:11.247 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:26:11.247 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-03-13 15:26:19.348 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 20832 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 15:26:19.349 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 15:26:19.390 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 15:26:19.390 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 15:26:21.491 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 15:26:21.639 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 15:26:21.639 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 15:26:21.639 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 15:26:21.842 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 15:26:21.842 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2452 ms
+2020-03-13 15:26:23.001 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:26:23.394 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-13 15:26:23.399 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 15:26:23.462 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2020-03-13 15:26:23.487 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2020-03-13 15:26:23.490 [restartedMain] INFO  com.fly.eshop.EshopApplication - Started EshopApplication in 4.754 seconds (JVM running for 6.127)
+2020-03-13 15:26:23.852 [RMI TCP Connection(5)-10.12.65.109] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-13 15:26:23.852 [RMI TCP Connection(5)-10.12.65.109] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-13 15:26:23.864 [RMI TCP Connection(5)-10.12.65.109] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2020-03-13 15:26:24.538 [RMI TCP Connection(6)-10.12.65.109] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-13 15:26:28.911 [Thread-16] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:26:28.912 [Thread-16] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-03-13 15:26:28.919 [Thread-16] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-13 15:26:29.215 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 20832 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 15:26:29.216 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 15:26:30.012 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 15:26:30.013 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 15:26:30.013 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 15:26:30.013 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 15:26:30.097 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 15:26:30.098 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 877 ms
+2020-03-13 15:26:30.402 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:26:30.532 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-13 15:26:30.535 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 15:26:30.570 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2020-03-13 15:26:30.576 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2020-03-13 15:26:30.577 [restartedMain] INFO  com.fly.eshop.EshopApplication - Started EshopApplication in 1.445 seconds (JVM running for 13.214)
+2020-03-13 15:26:30.580 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-03-13 15:26:31.013 [http-nio-7777-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-13 15:26:31.013 [http-nio-7777-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-13 15:26:31.017 [http-nio-7777-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-03-13 15:26:58.615 [Thread-27] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:26:58.616 [Thread-27] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-03-13 15:26:58.917 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 20832 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 15:26:58.918 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 15:26:59.578 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 15:26:59.579 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 15:26:59.579 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 15:26:59.579 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 15:26:59.678 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 15:26:59.678 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 758 ms
+2020-03-13 15:27:00.055 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:27:00.173 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-13 15:27:00.175 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 15:27:00.214 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2020-03-13 15:27:00.221 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2020-03-13 15:27:00.222 [restartedMain] INFO  com.fly.eshop.EshopApplication - Started EshopApplication in 1.358 seconds (JVM running for 42.858)
+2020-03-13 15:27:00.224 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-03-13 15:34:11.647 [http-nio-7777-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-13 15:34:11.648 [http-nio-7777-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-13 15:34:11.651 [http-nio-7777-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-03-13 15:34:59.150 [Thread-32] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:34:59.150 [Thread-32] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-03-13 15:34:59.562 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 20832 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 15:34:59.563 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 15:35:00.182 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 15:35:00.183 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 15:35:00.183 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 15:35:00.183 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 15:35:00.262 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 15:35:00.262 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 697 ms
+2020-03-13 15:35:00.590 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:35:00.772 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-13 15:35:00.778 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 15:35:00.823 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2020-03-13 15:35:00.830 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2020-03-13 15:35:00.830 [restartedMain] INFO  com.fly.eshop.EshopApplication - Started EshopApplication in 1.33 seconds (JVM running for 523.467)
+2020-03-13 15:35:00.834 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-03-13 15:35:08.956 [http-nio-7777-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-13 15:35:08.956 [http-nio-7777-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-13 15:35:08.959 [http-nio-7777-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-03-13 15:46:48.754 [Thread-37] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:46:48.754 [Thread-37] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-03-13 15:46:49.286 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 20832 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 15:46:49.286 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 15:47:03.587 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 15396 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 15:47:03.588 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 15:47:03.642 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 15:47:03.642 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 15:47:06.135 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 15:47:06.145 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 15:47:06.146 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 15:47:06.146 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 15:47:06.358 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 15:47:06.358 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2715 ms
+2020-03-13 15:47:07.765 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:47:08.136 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-13 15:47:08.140 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 15:47:08.202 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2020-03-13 15:47:08.254 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2020-03-13 15:47:08.259 [restartedMain] INFO  com.fly.eshop.EshopApplication - Started EshopApplication in 5.827 seconds (JVM running for 7.663)
+2020-03-13 15:47:08.550 [RMI TCP Connection(4)-10.12.65.109] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-13 15:47:08.550 [RMI TCP Connection(4)-10.12.65.109] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-13 15:47:08.560 [RMI TCP Connection(4)-10.12.65.109] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-03-13 15:47:10.590 [RMI TCP Connection(5)-10.12.65.109] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-13 15:48:26.433 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:48:26.434 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-03-13 15:48:26.444 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-13 16:45:01.167 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 15020 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 16:45:01.169 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 16:45:01.236 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-13 16:45:01.237 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-13 16:45:02.919 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 16:45:02.928 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 16:45:02.929 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 16:45:02.929 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 16:45:03.088 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 16:45:03.089 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1852 ms
+2020-03-13 16:45:04.040 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 16:45:04.382 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-13 16:45:04.386 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 16:45:04.448 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2020-03-13 16:45:04.474 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2020-03-13 16:45:04.477 [restartedMain] INFO  com.fly.eshop.EshopApplication - Started EshopApplication in 4.059 seconds (JVM running for 5.508)
+2020-03-13 16:45:05.086 [RMI TCP Connection(3)-10.12.65.109] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-13 16:45:05.087 [RMI TCP Connection(3)-10.12.65.109] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-13 16:45:05.092 [RMI TCP Connection(3)-10.12.65.109] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-03-13 16:45:05.629 [RMI TCP Connection(1)-10.12.65.109] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-13 16:47:52.152 [Thread-14] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 16:47:52.154 [Thread-14] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-03-13 16:47:52.169 [Thread-14] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-13 16:47:52.693 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 15020 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 16:47:52.694 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 16:47:53.376 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 16:47:53.377 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 16:47:53.377 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 16:47:53.377 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 16:47:53.455 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 16:47:53.456 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 756 ms
+2020-03-13 16:47:53.756 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 16:47:53.931 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-13 16:47:53.935 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 16:47:53.966 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2020-03-13 16:47:53.972 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2020-03-13 16:47:53.972 [restartedMain] INFO  com.fly.eshop.EshopApplication - Started EshopApplication in 1.402 seconds (JVM running for 175.004)
+2020-03-13 16:47:53.975 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-03-13 16:48:18.997 [Thread-26] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 16:48:18.998 [Thread-26] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-03-13 16:48:19.350 [restartedMain] INFO  com.fly.eshop.EshopApplication - Starting EshopApplication on pc-hz20125218 with PID 15020 (D:\idea-workspace\eshop-zx\target\classes started by zhaohuayu5 in D:\idea-workspace\eshop-zx)
+2020-03-13 16:48:19.351 [restartedMain] INFO  com.fly.eshop.EshopApplication - The following profiles are active: dev
+2020-03-13 16:48:19.951 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7777 (http)
+2020-03-13 16:48:19.951 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7777"]
+2020-03-13 16:48:19.951 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-13 16:48:19.951 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-13 16:48:20.006 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-13 16:48:20.006 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 652 ms
+2020-03-13 16:48:20.224 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 16:48:20.328 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-13 16:48:20.331 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-13 16:48:20.361 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7777"]
+2020-03-13 16:48:20.367 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7777 (http) with context path ''
+2020-03-13 16:48:20.368 [restartedMain] INFO  com.fly.eshop.EshopApplication - Started EshopApplication in 1.076 seconds (JVM running for 201.4)
+2020-03-13 16:48:20.371 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-03-13 16:48:41.782 [http-nio-7777-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-13 16:48:41.783 [http-nio-7777-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-13 16:48:41.789 [http-nio-7777-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-03-13 16:48:41.884 [http-nio-7777-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2020-03-13 16:58:11.581 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 16:58:11.582 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2020-03-13 16:58:11.588 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed

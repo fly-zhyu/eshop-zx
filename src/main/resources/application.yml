@@ -6,7 +6,7 @@ spring:
   datasource:
     druid:
       driverClassName: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://127.0.0.1:3306/eshop?useUnicode=true&characterEncoding=utf-8
+      url: jdbc:mysql://127.0.0.1:3306/eshop?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
       username: feixiang
       password: feixiang
       # 初始化物理连接个数

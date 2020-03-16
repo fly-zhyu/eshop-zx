@@ -5,9 +5,8 @@ import com.fly.eshop.auth.dto.AuthPriorityDTO;
 import com.fly.eshop.auth.entity.AuthPriority;
 import com.fly.eshop.auth.service.AuthPriorityService;
 import com.fly.eshop.common.util.BeanConvertUtil;
-import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
-import org.springframework.util.CollectionUtils;
+
 
 import javax.annotation.Resource;
 import java.util.ArrayList;
