@@ -4,15 +4,12 @@ import com.fly.eshop.auth.dto.AuthPriorityDTO;
 import com.fly.eshop.auth.entity.AuthPriority;
 import com.fly.eshop.auth.service.AuthPriorityService;
 import com.fly.eshop.auth.vo.AuthPriorityVO;
-import com.fly.eshop.common.constant.BaseRuntimeException;
-import com.fly.eshop.common.constant.ShopResultEnum;
 import com.fly.eshop.common.util.BeanConvertUtil;
 import com.fly.eshop.common.vo.ResultVO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
-import java.util.ArrayList;
 import java.util.List;
 
 /**
